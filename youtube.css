@@ -17,7 +17,9 @@ aside {
   grid-column: 1 / span 2;
   margin: 50px;
 }
-
+.profile_comments {
+  grid-column: 1 / span 2;
+}
 .top-bar {
   background-color: white;
   display: flex;
@@ -28,11 +30,9 @@ aside {
   align-items: center;
   justify-content: space-between;
 }
-
 .left-bar {
   display: flex;
 }
-
 .youtube-logo {
   height: 50px;
 }
@@ -40,7 +40,6 @@ aside {
   color: gray;
   padding: 10px;
 }
-
 main {
   background-color: white;
 }
@@ -55,19 +54,27 @@ main {
 }
 .profile_comments {
   background-color: white;
+  padding: 30px;
 }
-
+p {
+  float: right;
+}
 .comments_pic {
-  width: 30px;
+  width: 60px;
 }
 .video_list {
   background-color: white;
 }
 .views_list {
+  padding-left: 10px;
   border-bottom: 2px solid gray;
 }
 .video_list_pic {
-  width: 200px;
+  padding: 10px;
+  width: auto;
+}
+.video_description {
+  padding-left: 10px;
 }
 .search {
   width: 400px;
@@ -75,5 +82,6 @@ main {
 .views {
   position: relative;
   float: right;
-  border-bottom: 5px solid blue;
+  border-bottom: 4px solid blue;
+  font-size: large;
 }
