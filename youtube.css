@@ -1,5 +1,20 @@
 body {
   background-color: whitesmoke;
+
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(10, auto);
+}
+aside {
+  grid-column: 3 / span 1;
+  grid-row: 1 / span 10;
+  margin: 50px;
+}
+.grid-left{
+  grid-column: 1 / span 2;
+  margin: 50px;
 }
 
 .top-bar {
@@ -28,7 +43,7 @@ main {
   background-color: white;
 }
 .profile_pic {
-  width: 30px;
+  width: 50px;
 }
 .profile_comments {
   background-color: white;
@@ -42,4 +57,12 @@ main {
 }
 .video_list_pic {
   width: 200px;
+}
+.search {
+  width: 400px;
+}
+.views {
+  position: relative;
+  float: right;
+  border-bottom: 5px solid blue;  
 }
