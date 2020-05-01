@@ -1,31 +1,45 @@
-
-body{
-    background-color:whitesmoke;
+body {
+  background-color: whitesmoke;
 }
 
-.top-bar{
-    background-color: white;
-    display: flex;
-    height: 80px;
-    font-size: 35px;
-    color: gray;
-    flex: 1 1 auto;
-    align-items: center;
-    justify-content: space-between;
+.top-bar {
+  background-color: white;
+  display: flex;
+  height: 80px;
+  font-size: 35px;
+  color: gray;
+  flex: 1 1 auto;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.left-bar{
- 
-    display:flex;
+.left-bar {
+  display: flex;
 }
 
 .youtube-logo {
-    height: 50px;
+  height: 50px;
 }
 .fas {
-    color: gray;
+  color: gray;
 }
 
 main {
-    background-color: white;
+  background-color: white;
+}
+.profile_pic {
+  width: 30px;
+}
+.profile_comments {
+  background-color: white;
+}
+
+.comments_pic {
+  width: 30px;
+}
+.video_list {
+  background-color: white;
+}
+.video_list_pic {
+  width: 200px;
 }
