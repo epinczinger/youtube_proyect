@@ -1,0 +1,31 @@
+
+body{
+    background-color:whitesmoke;
+}
+
+.top-bar{
+    background-color: white;
+    display: flex;
+    height: 80px;
+    font-size: 35px;
+    color: gray;
+    flex: 1 1 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-bar{
+ 
+    display:flex;
+}
+
+.youtube-logo {
+    height: 50px;
+}
+.fas {
+    color: gray;
+}
+
+main {
+    background-color: white;
+}
