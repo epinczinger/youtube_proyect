@@ -74,11 +74,13 @@ main {
   width: 60px;
   float: left;
 }
-.video_description{
+.video_description_profile {
   background-color: white;
   grid-column: 1 / span 2;
   margin-left: 50px;
   margin-right: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
 
 }
 .video_list {
@@ -109,9 +111,13 @@ main {
   font-size: large;
   color: gray;
   font-family: 'Roboto', sans-serif;
+  padding-right: 10px;
 }
 h2 {
   font-family:'Roboto', sans-serif; 
   font-weight: 550;
   padding-inline-start: 10px;
+}
+.video-settings {
+  padding-left: 20px;
 }
