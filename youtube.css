@@ -22,7 +22,8 @@ aside {
 }
 .grid-left {
   grid-column: 1 / span 2;
-  margin: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
 }
 .profile_comments {
   grid-column: 1 / span 2;
@@ -56,18 +57,29 @@ main {
 }
 .profile_pic {
   width: 70px;
+  float: left;
 }
-.video-icons {
+.subscribe_btn {
+  background-color: red;
+  color: white;
 }
 .profile_comments {
   background-color: white;
   padding: 30px;
 }
-p {
-  float: right;
+.profile_name {
+  padding-bottom: 20px;
 }
 .comments_pic {
   width: 60px;
+  float: left;
+}
+.video_description{
+  background-color: white;
+  grid-column: 1 / span 2;
+  margin-left: 50px;
+  margin-right: 50px;
+
 }
 .video_list {
   background-color: white;
@@ -84,7 +96,6 @@ p {
   width: 200px;
 }
 .video_description {
-  
   padding: 20px;
   padding-left: 30px;
 }
@@ -94,8 +105,10 @@ p {
 .views {
   position: relative;
   float: right;
-  border-bottom: 4px solid blue;
+  border-bottom: 3px solid navy;
   font-size: large;
+  color: gray;
+  font-family: 'Roboto', sans-serif;
 }
 h2 {
   font-family:'Roboto', sans-serif; 
