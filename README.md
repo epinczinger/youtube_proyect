@@ -1,57 +1,26 @@
-# Project Name
+# Youtube Project
 
->First project "clone a youtube page"
+We did this project following the given instructions to copy this website http://archive.vn/Bss88 .
 
-![screenshot] 
+![screenshot](https://github.com/epinczinger/youtube_proyect/blob/design_proyect/things/fullscreen.jpeg)
 
-Additional description about the project and its features.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+-We used HTML5 and CSS.
+-https://kit.fontawesome.com/a076d05399.js 
+-https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap
 
 
 ## Authors
 
 👤 **Author1**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: @atenaiis https://github.com/atenaiis
 
 👤 **Author2**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: @epinczinger https://github.com/epinczinger
 
 ## 🤝 Contributing
 
@@ -65,10 +34,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+-Thanks to team-121-the ragdolls and team-123-the-ocicats 
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project has no license.
