@@ -8,7 +8,6 @@ html {
 body {
   background-color: whitesmoke;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 25 px;
 }
 .grid {
   display: grid;
@@ -32,7 +31,7 @@ aside {
   background-color: white;
   display: flex;
   height: 80px;
-  font-size: 35px;
+  font-size: 25px;
   color: gray;
   flex: 1 1 auto;
   align-items: center;
@@ -102,12 +101,12 @@ main {
   padding-left: 30px;
 }
 .search {
-  width: 400px;
+  width: 450px;
+  height: 27px;
 }
 .views {
   position: relative;
   float: right;
-  border-bottom: 3px solid navy;
   font-size: large;
   color: gray;
   font-family: 'Roboto', sans-serif;
@@ -115,9 +114,16 @@ main {
 }
 h2 {
   font-family:'Roboto', sans-serif; 
-  font-weight: 550;
-  padding-inline-start: 10px;
+  font-weight: 500;
 }
 .video-settings {
   padding-left: 20px;
+}
+
+button {
+  height: 33px;
+}
+
+.line-views {
+  border-bottom: 3px solid navy;
 }
