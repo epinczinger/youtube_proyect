@@ -2,7 +2,7 @@
 
 We did this project following the given instructions to copy this website http://archive.vn/Bss88 .
 
-![screenshot](https://github.com/epinczinger/youtube_proyect/blob/design_proyect/things/fullscreen.jpeg)
+![screenshot](https://github.com/epinczinger/youtube_proyect/blob/design_proyect/things/screen.jpeg)
 
 
 ## Built With
