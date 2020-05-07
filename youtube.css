@@ -28,10 +28,6 @@ aside {
   margin-left: 50px;
 }
 
-.profile_comments {
-  grid-column: 1 / span 2;
-}
-
 .top-bar {
   align-items: center;
   background-color: white;
@@ -77,6 +73,7 @@ main {
 
 .profile_comments {
   background-color: white;
+  grid-column: 1 / span 2;
   padding: 30px;
 }
 
