@@ -133,6 +133,7 @@ main {
 h2 {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
+  padding-left: 10px;
 }
 
 .video-settings {
@@ -145,4 +146,10 @@ button {
 
 .line-views {
   border-bottom: 3px solid navy;
+}
+
+.fa-thumbs-up,
+.fa-thumbs-down {
+  float: right;
+  padding-right: 20px;
 }
