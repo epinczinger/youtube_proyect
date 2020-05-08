@@ -1,13 +1,11 @@
-html {
-  border: 2px solid gray;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1500px;
-}
 
 body {
   background-color: whitesmoke;
+  border: 2px solid gray;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 1200px;
 }
 
 .grid {
@@ -17,7 +15,7 @@ body {
 }
 
 aside {
-  grid-column: 3 / span 1;
+  grid-column: 3;
   grid-row: 1 / span 10;
   margin: 50px;
 }
@@ -127,7 +125,6 @@ main {
   font-family: "Roboto", sans-serif;
   font-size: large;
   padding-right: 10px;
-  position: relative;
 }
 
 h2 {
