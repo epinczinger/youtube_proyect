@@ -1,0 +1,152 @@
+
+body {
+  background-color: whitesmoke;
+  border: 2px solid gray;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 1200px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(10, auto);
+}
+
+aside {
+  grid-column: 3;
+  grid-row: 1 / span 10;
+  margin: 50px;
+}
+
+.grid-left {
+  grid-column: 1 / span 2;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.top-bar {
+  align-items: center;
+  background-color: white;
+  color: gray;
+  display: flex;
+  flex: 1 1 auto;
+  font-size: 25px;
+  height: 80px;
+  justify-content: space-between;
+}
+
+.left-bar {
+  display: flex;
+}
+
+.youtube-logo {
+  height: 50px;
+}
+
+.fas {
+  color: gray;
+  padding: 10px;
+}
+
+main {
+  background-color: white;
+}
+
+.top-video {
+  height: 500px;
+  width: 100%;
+}
+
+.profile_pic {
+  float: left;
+  width: 70px;
+}
+
+.subscribe_btn {
+  background-color: red;
+  color: white;
+}
+
+.profile_comments {
+  background-color: white;
+  grid-column: 1 / span 2;
+  padding: 30px;
+}
+
+.profile_name {
+  padding-bottom: 20px;
+}
+
+.comments_pic {
+  float: left;
+  width: 60px;
+}
+
+.video_description_profile {
+  background-color: white;
+  grid-column: 1 / span 2;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.video_list {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.views_list {
+  color: gray;
+}
+
+.video_list_pic {
+  float: left;
+  padding: 10px;
+  width: 200px;
+}
+
+.video_description {
+  padding: 20px;
+  padding-left: 30px;
+}
+
+.search {
+  height: 27px;
+  width: 450px;
+}
+
+.views {
+  color: gray;
+  float: right;
+  font-family: "Roboto", sans-serif;
+  font-size: large;
+  padding-right: 10px;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  padding-left: 10px;
+}
+
+.video-settings {
+  padding-left: 20px;
+}
+
+button {
+  height: 33px;
+}
+
+.line-views {
+  border-bottom: 3px solid navy;
+}
+
+.fa-thumbs-up,
+.fa-thumbs-down {
+  float: right;
+  padding-right: 20px;
+}
